@@ -22,7 +22,15 @@ int main(void) {
 	//
 	// Setup game scene objects here
 	//
-
+	// hideAxisLines();
+	
+	addObject("Player", glm::vec2(0,0), 0, glm::vec2(0.8f,0.5f), "Resources\\Textures\\player1_ship.png", TextureProperties::NearestFilterTexture());
+	GameObject2D* playerObject = getObject("Player");
+	if (playerObject != nullptr)
+	{
+		//update player here
+		playerObject 
+	}
 	
 	//
 	// Set callback functions

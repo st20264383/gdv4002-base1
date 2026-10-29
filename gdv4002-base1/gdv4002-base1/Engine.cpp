@@ -2,6 +2,7 @@
 
 // Engine.cpp ver 1.4
 
+// Comment Out to remove Engine GUI
 #define ENGINE_USE_IMGUI
 
 #pragma region Engine variables
